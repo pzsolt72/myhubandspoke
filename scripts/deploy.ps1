@@ -15,6 +15,7 @@ az deployment group create --name 'myhubandspoke-test' --resource-group 'rg-nort
 az group delete --name rg-northeurope-hub --yes
 az group delete --name rg-northeurope-spoke-01 --yes
 az group delete --name rg-northeurope-spoke-02 --yes
+az group delete --name rg-onprem --yes
 az group delete --name rg-westeurope-hub --yes
 az group delete --name rg-westeurope-spoke-01 --yes
-az group delete --name rg-onprem --yes
+
